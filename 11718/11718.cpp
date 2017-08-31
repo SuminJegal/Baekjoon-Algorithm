@@ -1,5 +1,11 @@
 #include <iostream>
 
-int main() {
-    std::cout<<"hello world\n";
+char s[1000];
+
+int main() {    
+    while(scanf("%[^\n]\n",s)==1){
+        printf("%s\n", s);
+    }
+    return 0;
 }
+
